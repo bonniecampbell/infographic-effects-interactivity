@@ -21,6 +21,67 @@ svg {
   height: 100%;
   display: block;
 }
+.nav {
+  background-color: #8EA697;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: #FF9999;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li {
+font-family: sans-serif;
+padding-bottom: 5px;
+}
+
+.cupid-one {
+  transform-origin: center center;
+  animation: rocking 3s infinite;
+}
+
+@keyframes rocking {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.cupid-two {
+  transform-origin: center center;
+  animation: sway 3s infinite;
+}
+
+@keyframes sway {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
 
 .small-heart {
   transform-origin: center center;
