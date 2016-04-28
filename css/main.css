@@ -25,6 +25,7 @@ svg {
 body {
   margin: 0;
 }
+
 .opening {
   background-color: #8ea697;
 }
@@ -49,8 +50,8 @@ h1 {
 }
 
 .nav li {
-font-family: sans-serif;
-padding-bottom: 5px;
+  font-family: sans-serif;
+  padding-bottom: 5px;
 }
 
 .cupid-one {
@@ -127,10 +128,12 @@ svg {
   opacity: 0;
   transition: all 200ms ease-in;
 }
+
 .spend {
   opacity: 0;
   transition: all 200ms ease-in;
 }
+
 .ladiesandgents {
   opacity: 0;
   transition: all 200ms ease-in;

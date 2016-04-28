@@ -22,9 +22,6 @@ var $spend = $('.spend');
 var $man = $('.man');
 var $manTwo = $('.man-two');
 
-
-
-
 $bar.on('mouseover', function (e) {
   $barTarget.addClass('is-hovered');
 });
