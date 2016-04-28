@@ -21,8 +21,18 @@ svg {
   height: 100%;
   display: block;
 }
-.nav {
+
+body {
+  margin: 0;
+}
+.opening {
   background-color: #8EA697;
+}
+
+h1 {
+  color: white;
+  padding-left: 0.5em;
+  padding-top: 1em;
 }
 
 .nav a {
@@ -101,4 +111,51 @@ padding-bottom: 5px;
   100% {
     transform: scale(1);
   }
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.valentines {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.womenwant {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+.spend {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+.ladiesandgents {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.js-opacity {
+  opacity: 1;
+}
+
+.is-hovered {
+  fill: white;
+}
+
+.man-two {
+  opacity: 0;
+}
+
+.man {
+  opacity: 1;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
 }
