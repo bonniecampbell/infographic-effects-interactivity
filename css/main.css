@@ -6,7 +6,6 @@
 
 html {
   box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -55,61 +54,127 @@ h1 {
 }
 
 .cupid-one {
+  -webkit-transform-origin: center center;
   transform-origin: center center;
+  -webkit-animation: rocking 3s infinite;
   animation: rocking 3s infinite;
+}
+
+@-webkit-keyframes rocking {
+
+  0% {
+    -webkit-transform: rotate(0);
+  }
+
+  50% {
+    -webkit-transform: rotate(20deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+  }
 }
 
 @keyframes rocking {
 
   0% {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 
   50% {
+    -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
   }
 
   100% {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 }
 
 .cupid-two {
+  -webkit-transform-origin: center center;
   transform-origin: center center;
+  -webkit-animation: sway 3s infinite;
   animation: sway 3s infinite;
+}
+
+@-webkit-keyframes sway {
+
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  50% {
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
 }
 
 @keyframes sway {
 
   0% {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 
   50% {
+    -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
   }
 
   100% {
+    -webkit-transform: rotate(0);
     transform: rotate(0);
   }
 }
 
 .small-heart {
+  -webkit-transform-origin: center center;
   transform-origin: center center;
+  -webkit-animation: beat 1s linear infinite;
   animation: beat 1s linear infinite;
+}
+
+@-webkit-keyframes beat {
+
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @keyframes beat {
 
   0% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 
   50% {
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
 
   100% {
+    -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
@@ -121,21 +186,25 @@ svg {
 
 .valentines {
   opacity: 0;
+  -webkit-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
 
 .womenwant {
   opacity: 0;
+  -webkit-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
 
 .spend {
   opacity: 0;
+  -webkit-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
 
 .ladiesandgents {
   opacity: 0;
+  -webkit-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
 
